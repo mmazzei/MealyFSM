@@ -1,6 +1,6 @@
 # MealyFSM
 
-Small and simple Mealy Finite State Machine implementation for Swift.
+Small and simple Mealy Finite State Machine implementation written in Swift.
 
 # Theory
 
