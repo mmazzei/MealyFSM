@@ -7,45 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A0483F21D466ADE0087D609 /* MealyFSM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A99A9911D3B0FC50036192A /* MealyFSM.framework */; };
+		9A0483FB1D466AFE0087D609 /* CandyMachineExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0483F81D466AFE0087D609 /* CandyMachineExample.swift */; };
+		9A0483FC1D466AFE0087D609 /* MealyFSMDummyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0483F91D466AFE0087D609 /* MealyFSMDummyDelegate.swift */; };
+		9A0483FD1D466AFE0087D609 /* SignalProcessingMachineExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0483FA1D466AFE0087D609 /* SignalProcessingMachineExample.swift */; };
 		9A3D41AB1D3B200900DDF983 /* Info-iOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A3D41A91D3B200900DDF983 /* Info-iOS.plist */; };
 		9A3D41AE1D3B200900DDF983 /* Info-macOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A3D41AA1D3B200900DDF983 /* Info-macOS.plist */; };
 		9A3D41BF1D3B224A00DDF983 /* MealyFSM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A99A9B11D3B0FE40036192A /* MealyFSM.swift */; };
 		9A3D41C01D3B225700DDF983 /* MealyFSM.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A99A9941D3B0FC50036192A /* MealyFSM.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A99A9951D3B0FC50036192A /* MealyFSM.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A99A9941D3B0FC50036192A /* MealyFSM.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A99A99C1D3B0FC50036192A /* MealyFSM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A99A9911D3B0FC50036192A /* MealyFSM.framework */; };
-		9A99A9AE1D3B0FD30036192A /* CandyMachineExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A99A9AB1D3B0FD30036192A /* CandyMachineExample.swift */; };
-		9A99A9AF1D3B0FD30036192A /* SignalProcessingMachineExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A99A9AC1D3B0FD30036192A /* SignalProcessingMachineExample.swift */; };
-		9A99A9B01D3B0FD30036192A /* MealyFSMDummyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A99A9AD1D3B0FD30036192A /* MealyFSMDummyDelegate.swift */; };
 		9A99A9B21D3B0FE40036192A /* MealyFSM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A99A9B11D3B0FE40036192A /* MealyFSM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9A99A99D1D3B0FC50036192A /* PBXContainerItemProxy */ = {
+		9A0483F31D466ADE0087D609 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9A99A9881D3B0FC50036192A /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9A99A9901D3B0FC50036192A;
-			remoteInfo = MealyFSM;
+			remoteInfo = "MealyFSM iOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A0483ED1D466ADE0087D609 /* MealyFSMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealyFSMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0483F11D466ADE0087D609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A0483F81D466AFE0087D609 /* CandyMachineExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandyMachineExample.swift; sourceTree = "<group>"; };
+		9A0483F91D466AFE0087D609 /* MealyFSMDummyDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealyFSMDummyDelegate.swift; sourceTree = "<group>"; };
+		9A0483FA1D466AFE0087D609 /* SignalProcessingMachineExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignalProcessingMachineExample.swift; sourceTree = "<group>"; };
 		9A3D41921D3B1F4F00DDF983 /* MealyFSM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MealyFSM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A3D41A91D3B200900DDF983 /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		9A3D41AA1D3B200900DDF983 /* Info-macOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
 		9A99A9911D3B0FC50036192A /* MealyFSM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MealyFSM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A99A9941D3B0FC50036192A /* MealyFSM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MealyFSM.h; sourceTree = "<group>"; };
-		9A99A99B1D3B0FC50036192A /* MealyFSMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealyFSMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A99A9A21D3B0FC50036192A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A99A9AB1D3B0FD30036192A /* CandyMachineExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandyMachineExample.swift; sourceTree = "<group>"; };
-		9A99A9AC1D3B0FD30036192A /* SignalProcessingMachineExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignalProcessingMachineExample.swift; sourceTree = "<group>"; };
-		9A99A9AD1D3B0FD30036192A /* MealyFSMDummyDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealyFSMDummyDelegate.swift; sourceTree = "<group>"; };
 		9A99A9B11D3B0FE40036192A /* MealyFSM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealyFSM.swift; sourceTree = "<group>"; };
 		9A99A9B31D3B10740036192A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9A99A9B51D3B10980036192A /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9A0483EA1D466ADE0087D609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0483F21D466ADE0087D609 /* MealyFSM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9A3D418E1D3B1F4F00DDF983 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -60,24 +68,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A99A9981D3B0FC50036192A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9A99A99C1D3B0FC50036192A /* MealyFSM.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A0483EE1D466ADE0087D609 /* MealyFSMTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A0483F81D466AFE0087D609 /* CandyMachineExample.swift */,
+				9A0483F91D466AFE0087D609 /* MealyFSMDummyDelegate.swift */,
+				9A0483FA1D466AFE0087D609 /* SignalProcessingMachineExample.swift */,
+				9A0483F11D466ADE0087D609 /* Info.plist */,
+			);
+			path = MealyFSMTests;
+			sourceTree = "<group>";
+		};
 		9A99A9871D3B0FC50036192A = {
 			isa = PBXGroup;
 			children = (
 				9A99A9B51D3B10980036192A /* LICENSE */,
 				9A99A9B31D3B10740036192A /* README.md */,
 				9A99A9931D3B0FC50036192A /* MealyFSM */,
-				9A99A99F1D3B0FC50036192A /* MealyFSMTests */,
+				9A0483EE1D466ADE0087D609 /* MealyFSMTests */,
 				9A99A9921D3B0FC50036192A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				9A99A9911D3B0FC50036192A /* MealyFSM.framework */,
-				9A99A99B1D3B0FC50036192A /* MealyFSMTests.xctest */,
 				9A3D41921D3B1F4F00DDF983 /* MealyFSM.framework */,
+				9A0483ED1D466ADE0087D609 /* MealyFSMTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,17 +112,6 @@
 				9A99A9941D3B0FC50036192A /* MealyFSM.h */,
 			);
 			path = MealyFSM;
-			sourceTree = "<group>";
-		};
-		9A99A99F1D3B0FC50036192A /* MealyFSMTests */ = {
-			isa = PBXGroup;
-			children = (
-				9A99A9AB1D3B0FD30036192A /* CandyMachineExample.swift */,
-				9A99A9AC1D3B0FD30036192A /* SignalProcessingMachineExample.swift */,
-				9A99A9AD1D3B0FD30036192A /* MealyFSMDummyDelegate.swift */,
-				9A99A9A21D3B0FC50036192A /* Info.plist */,
-			);
-			path = MealyFSMTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +136,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		9A0483EC1D466ADE0087D609 /* MealyFSMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0483F51D466ADE0087D609 /* Build configuration list for PBXNativeTarget "MealyFSMTests" */;
+			buildPhases = (
+				9A0483E91D466ADE0087D609 /* Sources */,
+				9A0483EA1D466ADE0087D609 /* Frameworks */,
+				9A0483EB1D466ADE0087D609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A0483F41D466ADE0087D609 /* PBXTargetDependency */,
+			);
+			name = MealyFSMTests;
+			productName = MealyFSMTests;
+			productReference = 9A0483ED1D466ADE0087D609 /* MealyFSMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		9A3D41911D3B1F4F00DDF983 /* MealyFSM macOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A3D41A31D3B1F4F00DDF983 /* Build configuration list for PBXNativeTarget "MealyFSM macOS" */;
@@ -172,24 +190,6 @@
 			productReference = 9A99A9911D3B0FC50036192A /* MealyFSM.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9A99A99A1D3B0FC50036192A /* MealyFSMTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9A99A9A81D3B0FC50036192A /* Build configuration list for PBXNativeTarget "MealyFSMTests" */;
-			buildPhases = (
-				9A99A9971D3B0FC50036192A /* Sources */,
-				9A99A9981D3B0FC50036192A /* Frameworks */,
-				9A99A9991D3B0FC50036192A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9A99A99E1D3B0FC50036192A /* PBXTargetDependency */,
-			);
-			name = MealyFSMTests;
-			productName = MealyFSMTests;
-			productReference = 9A99A99B1D3B0FC50036192A /* MealyFSMTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,13 +200,13 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = mmazzei;
 				TargetAttributes = {
+					9A0483EC1D466ADE0087D609 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					9A3D41911D3B1F4F00DDF983 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 					9A99A9901D3B0FC50036192A = {
-						CreatedOnToolsVersion = 7.3.1;
-					};
-					9A99A99A1D3B0FC50036192A = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
@@ -225,12 +225,19 @@
 			targets = (
 				9A99A9901D3B0FC50036192A /* MealyFSM iOS */,
 				9A3D41911D3B1F4F00DDF983 /* MealyFSM macOS */,
-				9A99A99A1D3B0FC50036192A /* MealyFSMTests */,
+				9A0483EC1D466ADE0087D609 /* MealyFSMTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9A0483EB1D466ADE0087D609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9A3D41901D3B1F4F00DDF983 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,16 +254,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A99A9991D3B0FC50036192A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9A0483E91D466ADE0087D609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0483FB1D466AFE0087D609 /* CandyMachineExample.swift in Sources */,
+				9A0483FD1D466AFE0087D609 /* SignalProcessingMachineExample.swift in Sources */,
+				9A0483FC1D466AFE0087D609 /* MealyFSMDummyDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9A3D418D1D3B1F4F00DDF983 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -273,27 +283,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A99A9971D3B0FC50036192A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9A99A9AE1D3B0FD30036192A /* CandyMachineExample.swift in Sources */,
-				9A99A9AF1D3B0FD30036192A /* SignalProcessingMachineExample.swift in Sources */,
-				9A99A9B01D3B0FD30036192A /* MealyFSMDummyDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9A99A99E1D3B0FC50036192A /* PBXTargetDependency */ = {
+		9A0483F41D466ADE0087D609 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9A99A9901D3B0FC50036192A /* MealyFSM iOS */;
-			targetProxy = 9A99A99D1D3B0FC50036192A /* PBXContainerItemProxy */;
+			targetProxy = 9A0483F31D466ADE0087D609 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		9A0483F61D466ADE0087D609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MealyFSMTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmazzei.MealyFSMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A0483F71D466ADE0087D609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MealyFSMTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmazzei.MealyFSMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		9A3D41A41D3B1F4F00DDF983 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -466,29 +491,17 @@
 			};
 			name = Release;
 		};
-		9A99A9A91D3B0FC50036192A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = MealyFSMTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mmazzei.MealyFSMTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		9A99A9AA1D3B0FC50036192A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = MealyFSMTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mmazzei.MealyFSMTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9A0483F51D466ADE0087D609 /* Build configuration list for PBXNativeTarget "MealyFSMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0483F61D466ADE0087D609 /* Debug */,
+				9A0483F71D466ADE0087D609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		9A3D41A31D3B1F4F00DDF983 /* Build configuration list for PBXNativeTarget "MealyFSM macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -512,15 +525,6 @@
 			buildConfigurations = (
 				9A99A9A61D3B0FC50036192A /* Debug */,
 				9A99A9A71D3B0FC50036192A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9A99A9A81D3B0FC50036192A /* Build configuration list for PBXNativeTarget "MealyFSMTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9A99A9A91D3B0FC50036192A /* Debug */,
-				9A99A9AA1D3B0FC50036192A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
